@@ -1,0 +1,58 @@
+
+Reflections - Git & GitHub
+==========================
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+* Because using a automatic tool it helped me to see the latest changes in the file 
+  in a quick way.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+* For instance, you can have different versions of an app and in case you lost the most 
+  recent one you just take the latest version available instead of create the app from scratch.
+* It's like having backups of the file.
+   
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    PROS
+    + I actually decide when to do a commit and create a version rather than 
+      wait the system to do automatically.
+    + The criteria of when to do a commit is up to you.
+
+    CONS
+    - I can forget to create a commit and make many changes to a file before create a commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   * I think it's because Git is oriented for developers, where normally  are files 
+   related to each other.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    * Using command: git log --stat 
+      i can see the history of modifications with detail. Number of lines modified,
+      number of lines inserted, delete, ...
+
+    * Using command: git log
+      i can see the history of files without detail
+
+    * Using command: git diff Id1 Id2
+    I can see the detail of modificaciones between these two versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+   * I can make changes to an app without fear to brake the code, because
+     I can recover it easily with the last stable version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    * Want to know how to create commits, how to define wich files are related in the commit.
+    * Want to know how to create a repositor (if apply)
