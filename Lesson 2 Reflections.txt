@@ -9,11 +9,10 @@ What value do you think it offers?
   * The staging area contains only the files desired to be included in a commit while
   the working directory may contains all the files of the project.
 
-  The staging area provides the user the posibility the select only the files 
-  he wants to include in a commit.
-
-How can you use the staging area to make sure you have one commit per logical
+  How can you use the staging area to make sure you have one commit per logical
 change?
+
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
