@@ -1,7 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-  * It creates a empty git repository in the actually directory.
-    Executing the command: git init
+  * It creates a empty hidden 'git' repository in the actual directory.
   * You have to do it in order to be able to save the history (versions).
     
 How is the staging area different from the working directory and the repository?
@@ -13,8 +12,8 @@ What value do you think it offers?
   How can you use the staging area to make sure you have one commit per logical
 change?
 
-   * Using command 'git add' you normallh add the files to the staging area that belongs
-   to a logical change.
+   * Using command 'git add' you add files to this area than normally belongs
+   to a logical change. This way changes are logically separated.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -30,19 +29,17 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-  * The result was to take only the modifications that were valid for the branches selected,
-  in this case two branches.
-
+  * The result is that system merges all valid changes of those branches into a new commit.
+  
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
   Git’s automatic merging 
   =======================
   PROS: * It saves a lot of time
-        * It shows also way which files can't be merged automatically
   CONS: * You depend on the accuracy of the Git's program
 
   always doing merges manually
   ============================
-  PROS: * Doing manually is recommended when there are conflicts between versions
-  CONS: * Always doing merge manually it would require a lot of effort and time
+  PROS: * Doing manually is recommended only when there are conflicts between versions
+  CONS: * Always doing merge manually it would require a huge of effort and time
