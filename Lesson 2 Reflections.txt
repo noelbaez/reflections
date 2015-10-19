@@ -40,11 +40,9 @@ manually?
   =======================
   PROS: * It saves a lot of time
         * It shows also way which files can't be merged automatically
-
   CONS: * You depend on the accuracy of the Git's program
 
   always doing merges manually
   ============================
   PROS: * Doing manually is recommended when there are conflicts between versions
-
   CONS: * Always doing merge manually it would require a lot of effort and time
